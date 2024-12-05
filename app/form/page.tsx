@@ -169,32 +169,32 @@
 
 // const userFormSchema = z
 //   .object({
-    // firstName: z
-    //   .string()
-    //   .min(2, "Atleast 2 char must be entered")
-    //   .max(30, "char shd be no more than 30"),
-    // lastName: z
-    //   .string()
-    //   .min(2, "Atleast 2 char must be entered")
-    //   .max(30, "char shd be no more than 30"),
-    // email: z.string().email("Please enter a valid email"),
-    // age: z
-    //   .number()
-    //   .min(18, "Age should be atleast 18 yrs")
-    //   .max(80, "Age should be no more than 80 yrs"),
-    // password: z
-    //   .string()
-    //   .min(4, "Password shuold be at least 4 char")
-    //   .max(20, "Password shuold be no more than 20 char"),
-    // conformPassword: z
-    //   .string()
-    //   .min(4, "Password shuold be at least 4 char")
-    //   .max(20, "Password shuold be no more than 20 char"),
+// firstName: z
+//   .string()
+//   .min(2, "Atleast 2 char must be entered")
+//   .max(30, "char shd be no more than 30"),
+// lastName: z
+//   .string()
+//   .min(2, "Atleast 2 char must be entered")
+//   .max(30, "char shd be no more than 30"),
+// email: z.string().email("Please enter a valid email"),
+// age: z
+//   .number()
+//   .min(18, "Age should be atleast 18 yrs")
+//   .max(80, "Age should be no more than 80 yrs"),
+// password: z
+//   .string()
+//   .min(4, "Password shuold be at least 4 char")
+//   .max(20, "Password shuold be no more than 20 char"),
+// conformPassword: z
+//   .string()
+//   .min(4, "Password shuold be at least 4 char")
+//   .max(20, "Password shuold be no more than 20 char"),
 //   })
 //   .refine((data) => data.password === data.conformPassword, {
 //     message: "Password do not match",
 //     path: ["conformPassword"],
-//   });  
+//   });
 
 // type formData = z.infer<typeof userFormSchema>;
 
@@ -318,3 +318,8 @@
 //   );
 // };
 // export default ReactForm;
+
+const page = () => {
+  return <div>page</div>;
+};
+export default page;
